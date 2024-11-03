@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单计数器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>简单计数器</h1>
+        <div id="counter">0</div>
+        <div class="buttons">
+            <button onclick="increment()">增加</button>
+            <button onclick="decrement()">减少</button>
+            <button onclick="reset()">重置</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<div class="buttons">
+    <button onclick="increment()">增加</button>
+    <button onclick="decrement()">减少</button>
+    <button onclick="reset()">重置</button>
+    <input type="number" id="step-value" placeholder="输入步长">
+    <button onclick="customStep()">按步长变化</button>
+</div>
+
